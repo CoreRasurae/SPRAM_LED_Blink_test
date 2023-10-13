@@ -9,5 +9,7 @@
         <File path="src/timer.vhd" type="file.vhdl" enable="1"/>
         <File path="src/top.vhd" type="file.vhdl" enable="1"/>
         <File path="src/spram_led.cst" type="file.cst" enable="1"/>
+        <File path="src/SPRAM_LED_Blink_test.rao" type="file.gao" enable="0"/>
+        <File path="roms/led.mem" type="file.other" enable="1"/>
     </FileList>
 </Project>

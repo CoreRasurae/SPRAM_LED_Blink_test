@@ -22,9 +22,9 @@ begin
       if rising_edge(CLK) then
          Q <= '0';
          if (unsigned(counter) < CLK_FREQ) then
-            counter <= std_logic_vector(unsigned(counter) + x"01");
-            Q <= '1';
+            counter <= std_logic_vector(unsigned(counter) + x"01");            
          else
+            Q <= '1';
             counter <= (others => '0');
          end if;
       end if;
