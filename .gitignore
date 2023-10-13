@@ -4,3 +4,4 @@ impl/pnr/cmd.do
 impl/pnr/SPRAM_LED_Blink_test*
 impl/temp
 *.gprj.user
+**/*~
