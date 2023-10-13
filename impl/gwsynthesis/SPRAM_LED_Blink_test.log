@@ -1,0 +1,39 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v'
+Analyzing VHDL file '/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/timer.vhd'
+Analyzing entity 'timer'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/timer.vhd":7)
+Analyzing architecture 'rtl'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/timer.vhd":17)
+Analyzing VHDL file '/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd'
+Analyzing entity 'top'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":7)
+Analyzing architecture 'rtl'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":15)
+Compiling module 'spram'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v":1)
+Extracting RAM for identifier 'ram'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v":16)
+WARN  (EX3988) : Cannot open file ''("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v":17)
+Processing 'timer(RTL)'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/timer.vhd":7)
+Processing 'top(RTL)'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":7)
+Switching to Verilog mode to elaborate module 'spram'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":55)
+Compiling module 'spram(addrbits=1,init_file="../roms/led.mem")'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v":1)
+Extracting RAM for identifier 'ram'("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/spram.v":16)
+Returning to VHDL mode to continue with elaboration("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":55)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input KEY is unused("/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/src/top.vhd":10)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/impl/gwsynthesis/SPRAM_LED_Blink_test.vg" completed
+[100%] Generate report file "/home/lpnm/Documents/Electronica/Sipeed/Tang_Nano_20K/SPRAM_LED_Blink_test/impl/gwsynthesis/SPRAM_LED_Blink_test_syn.rpt.html" completed
+GowinSynthesis finish

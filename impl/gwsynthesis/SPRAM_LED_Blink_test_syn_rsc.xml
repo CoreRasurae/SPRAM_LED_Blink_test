@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="1" Lut="1">
+ <SubModule name="led_spram" Register="1"/>
+ <SubModule name="led_address_timer" Register="33" Alu="31" Lut="13"/>
+</Module>
