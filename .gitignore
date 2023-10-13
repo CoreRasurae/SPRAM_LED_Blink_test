@@ -1,0 +1,6 @@
+!impl/gwsynthesis/SPRAM_LED_Blink_test.prj
+impl/gwsynthesis/**
+impl/pnr/cmd.do
+impl/pnr/SPRAM_LED_Blink_test*
+impl/temp
+*.gprj.user
